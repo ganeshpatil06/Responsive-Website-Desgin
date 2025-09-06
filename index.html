@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animal Care</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Animal Care</div>
+    <nav>
+      <ul>
+        <li><a onclick="showSection('home')">Home</a></li>
+        <li><a onclick="showSection('features')">Features</a></li>
+        <li><a onclick="showSection('about')">About</a></li>
+        <li><a onclick="showSection('contact')">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="active" style="background-image:url(images/pexels-rachel-claire-4577567.jpg);">
+    <div class="search-box">
+      <input id="animal-input" type="text" placeholder="Search animals... (e.g., lion, tiger, elephant)" />
+      <button onclick="searchAnimal()">Search</button>
+    </div>
+    <div id="search-result"></div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" style="background-image: url(images/geranimo-f0oe9P9Yixs-unsplash.jpg);">
+    <div class="features-list">
+      <h2>Our Animal Care Features</h2>
+      <ul>
+        <li>🥩 24/7 fresh food for animals</li>
+        <li>👩‍⚕️ 72 trained caretakers</li>
+        <li>🛡️ Safe, natural habitats</li>
+        <li>🏥 Veterinary checkups</li>
+        <li>🌿 Eco-friendly sanctuary</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" style="background-image: url(images/pexels-pixabay-247376.jpg);">
+    <div class="about-box">
+      <h2>About Us</h2>
+      <p>🐾 We’ve been protecting animals for <b>74 years</b>.</p>
+      <p>🦁 Visitors can see lions, tigers, elephants, and more.</p>
+      <p>🚙 Tourist vehicles available to explore safely.</p>
+      <p>🌍 Mission: a safe, natural life for all animals.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" style="background-image:url('https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=1600&q=80');">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <div class="site-footer">
+    📧 animalcare@gmail.com &nbsp;|&nbsp; ☎ 9359464528
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
