@@ -1,4 +1,4 @@
-# Responsive-Website-Desgin
+# SCT_WD_1
 “Task 1 of my SkillCraft Technology Internship – Responsive Website Design using HTML, CSS, and JavaScript.”  “Responsive website built as part of SkillCraft Technology internship task (HTML, CSS, JS).”  “Internship Project (SkillCraft Technology) – Task 1: Responsive Web Design.”
 
 ##  Features
